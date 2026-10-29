@@ -29,7 +29,7 @@ Codex, Gemini CLI, Cursor and GitHub Copilot.
 
 | Skill | Category | What it does |
 | ----- | -------- | ------------ |
-| _None yet_ | | |
+| [paper-explainer](skills/paper-explainer) | research | Plain-language tutor for research papers and technical ideas: terms, formulas, figures and results, one piece at a time |
 
 ## Using a skill
 
