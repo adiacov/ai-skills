@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Block commits that contain invalid skills.
+# Enable once per clone with: git config core.hooksPath .githooks
+exec "$(git rev-parse --show-toplevel)/scripts/validate.sh"

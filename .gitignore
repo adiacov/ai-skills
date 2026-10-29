@@ -1,0 +1,49 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+
+# Secrets & local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local AI agent state (keep shared config, ignore personal/local)
+.claude/settings.local.json
+.claude/worktrees/
+CLAUDE.local.md
+AGENTS.local.md
+
+# Skill eval / build artifacts
+*-workspace/
+dist/
+*.skill
+*.zip
+
+# Python (skill helper scripts)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Node (skill helper scripts)
+node_modules/
+npm-debug.log*
+
+# Logs & temp
+*.log
+tmp/
+.cache/
