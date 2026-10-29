@@ -63,7 +63,7 @@ documentation if a skill does not show up.
 ### Option 3: Install script (macOS, Linux, Windows with WSL or Git Bash)
 
 ```bash
-git clone <this repository's URL>
+git clone https://github.com/adiacov/ai-skills.git
 cd ai-skills
 
 scripts/install.sh --list                        # show supported assistants
